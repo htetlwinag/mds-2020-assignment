@@ -1,0 +1,50 @@
+<!Doctype html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bst/css/bootstrap.css">
+<link rel="stylesheet" href="fa/css/all.css">
+<body>
+
+<div class="container mt-5">
+
+
+    <div class="row">
+       <div class="col-sm-4 offest-sm-4">
+<div class="form-group">
+ 
+          <input class="form-control" id="price" placeholder="Normal Price:">
+   </div>
+<div class="form-group">
+    <input class="form-control" id="discount" placeholder="Discount %:">
+</div>
+   <div class="form-group">
+    <button class="btn btn-primary" onclick="getPrice()">Calculate</button>
+</div>
+<div class="form-group">
+<i class="fa fa-" aria-hidden="true"></i>
+Discount Amount:
+
+    <input class="form-control" readonly id="discountamount">
+    </div>
+<div class="form-group">
+Total Cost:
+    <input class="form-control" readonly id="total">
+</div>
+       </div>
+    </div>
+</div>
+
+    <script>
+        getPrice = function() {
+            var numVal1 = Number(document.getElementById("price").value);
+            var numVal2 = Number(document.getElementById("discount").value)/100;
+            var totalValue = numVal1-(numVal1*numVal2);
+document.getElementById("discountamount").value =(numVal1*numVal2) .toFixed(2);
+            document.getElementById("total").value = totalValue.toFixed(2);
+        }
+    </script>
+<script src="bst/js/jquery.js"></script> 
+<script src="bst/js/bootstrap.js"></script>
+</body>
+</html>
