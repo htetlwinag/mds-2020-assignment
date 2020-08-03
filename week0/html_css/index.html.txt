@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="bst/css/bootstrap.css">
+<link rel="stylesheet" href="fa/css/all.css">
+<style>
+   .container{
+     position:relative;
+     text-align:center;
+    
+}
+  .centered{
+        color: gold;
+        position: absolute;
+        top:120px;
+        left:180px;
+   
+      }
+</style>
+<body>
+
+<div class="jumbotron">
+<div class="jumbotron">
+    <img src="img/Banner.jpg" class="img-fluid" alt="Responsive image">
+</div>
+
+<div class="jumbotron">
+<bold><h1>What Spring can do</h1></bold>
+<hr>
+  <div class="row">
+      <div class="col-sm-3">
+       <a href="#" class="btn shadow">
+      <i class="fa fa-cubes fa-9x"></i>
+      <p><h3>Microservices</h3>
+         Quickly deliver production-grade features with independently evolvable microservices.</p>
+       </a>
+    </div>
+    
+    
+    <div class="col-sm-3">
+     <a href="#" class="btn shadow">
+      <i class="fa fa-bullseye fa-9x"></i>
+
+      <p><h3>Reactive</h3>
+            Springs asynchronous,nonblocking architecture means you can get more from your computing resources.
+      </p>
+      </a>
+    </div>
+    
+    <div class="col-sm-3">
+     <a href="#" class="btn shadow">
+      <i class="fa fa-cloud fa-9x" aria-hidden="true"></i> 
+      <p>
+         <h3>Cloud</h3>Your code,any cloud-we've got your covered.Connect and sclae your services,whatever your platform.
+      </p>
+      </a>
+    </div>
+    
+    <div class="col-sm-3">
+      <a href="#" class="btn shadow">
+      <i class="fa fa-rocket fa-9x" aria-hidden="true"></i>
+
+      <p><h3>Web Apps</h3>Framework for fast,secure,and responsive web applications connect to any data store. </p>
+      </a>
+    </div> 
+   
+  </div>
+</div> 
+
+<div class="container">
+  
+   <div class="row">
+    
+    <div class="col-sm-4">
+      <a href="#" class="btn shadow">
+      <i class="fa fa-bolt fa-9x"></i>
+      <p><h3>Severless</h3>The utlimate flexibility.Scale up on demand and scale to zero when there's no demand. </p>
+      </a>
+    </div>
+    
+    <div class="col-sm-4">
+       <a href="#" class="btn shadow">
+      <i class="fa fa-eraser fa-9x" aria-hidden="true"></i>
+      <p><h3>Event Driven</h3>Integrate with your enterprise.React to business events.Act on your streaming data in realtime. </p>
+      </a>
+    </div>
+    
+    <div class="col-sm-4">
+     <a href="#" class="btn shadow">
+      <i class="fa fa-cogs fa-9x"></i>
+      <p><h3>Batch</h3>Automated tasks.Offine processing of data at a time to suit you.</p>
+      </a>
+    </div>
+    
+  </div>
+</div>
+
+<div class="jumbotron">
+    <div class="container">
+       <img src="img/Footer.jpg" class="img-fluid" alt="Responsive image">
+    <div class="centered small">@SpringBootApplication<br>
+@RestController<br>public class DemonApplication{<br>
+@GetMapping("/helloworld")<br>public String hello(){<br>return "Hello World!";<br>}<br> }
+
+</div>
+</div>
+</div>
+</div>
+<script src="bst/js/jquery.js"></script> 
+<script src="bst/js/bootstrap.js"></script> 
+</body>
+</html>
