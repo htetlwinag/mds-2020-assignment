@@ -1,0 +1,15 @@
+package hello;
+
+public class hello {
+
+  public static void main(String[] args) {
+   for (int i = 1; i <= 1000; i++) { 
+			System.out.println("Hello World"); 
+		} 
+  }
+}
+  
+  
+  
+  //for loop နဲ့ပတ်ထားတယ် iထဲကို 1ထည့်ထားတယ်
+ // iက 1000ရောက်တဲ့အထိ 1တိုးပီး အလုပ်လုပ်
