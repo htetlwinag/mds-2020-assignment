@@ -1,0 +1,41 @@
+Entity List=>(1)SUPPLIER
+                      (2)ADMIN
+                      (3)CUSTOMER
+                      (4)CATEGORIES
+                      (5)BRANDS
+                      (6)PRODUCTS
+                      (7)INVOICE
+
+Attribute for SUPPLIER entity
+-supplier_id
+-name
+-address
+-email
+
+Attribute for ADMIN entity
+-username
+-password
+
+Attribute for CUSTOMER entity
+-customer_id
+-name
+-address
+-email
+-phoneNo
+
+Attribute for CATEGORIES entity
+-category_id
+-category_name
+
+Attribute for BRANDS entity
+-brand_id
+-brand_name
+
+Attribute for PRODUCTS entity
+-product_id
+-product_name
+-price
+
+Attribute for INVOICE entity
+-total
+

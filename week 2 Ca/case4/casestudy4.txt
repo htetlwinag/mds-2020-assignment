@@ -1,0 +1,39 @@
+Entity List=>(1)Customer
+                      (2)Orders
+                      (3)Category
+                      (4)Food
+                      (5)Payment
+                      (6)Delivery
+
+Attribute for Customer entity
+-Name
+-PhoneNo
+-Address
+-Email
+
+Attribute for Orders entity
+-Order_no
+-Ticket_no
+-Date
+
+Attribute for Category entity
+-Category_id
+-Category_name
+
+Attribute for Food entity
+-Food_id
+-Name
+-Price
+-Qty
+
+Attribute for Payment entity
+-Kpay
+-MytelPay
+-WaveMoney
+
+Attribute for Delivery entity
+-Deliver_no
+-Depature
+-Depature_time
+-Arrival
+
